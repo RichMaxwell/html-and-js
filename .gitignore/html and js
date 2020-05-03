@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="simple.css">
+</head>
+
+
+
+	<!--<div id="gibberishH">
+<p id = "firstparagraph"> L o r e m ipsum d o lo r s i t amet,
+c o n s e c t e t u r a d ip is c in g e l i t . V e s tib u lu m
+m o le s t ie p u lv in a r a n te , a v o lu t p a t e s t
+s o d a le s e t . Ut g r a v id a ju s t o ac le o euism od,
+e t tempus magna p o s u e re . Cum s o c i i s natoq ue
+p e n a tib u s e t m agnis d is p a r t u r ie n t m ontes,
+n a s c e t u r r i d i c u l u s mus. I n t e g e r non mi i a c u l i s ,
+f a c i l i s i s r is u s e t , v e s t ib u lu m lo re m . Sed quam
+ex, p la c e r a t nec t r i s t i q u e id , m a t t is f r i n g i l l a
+l i g u l a . M aecenas a p r e tiu m j u s t o . S u s p e n d is s e
+s i t amet n ib h c o n s e c t e t u r , t r i s t i q u e t e l l u s
+q u is , congue a rc u . E tia m p e lle n t e s q u e d ic tu m
+e l i t e g e t sem per. P h a s e llu s o r c i neque, sem per
+ac t o r t o r ac, la o r e e t u l t r i c i e s enim .</p>
+</div>
+<button onclick = "removeFirstParagraph( ) ;"> Это
+тарабарщина!</button>-->
+	<!--<h1>Некоторые типы мячей</h1>
+<ul id = "ballList">
+</ul>-->
+	<!--<div class="columns">
+		<script>
+			//for (let prop in navigator) {
+				//document.write(prop + " : " + navigator[prop] + //"</br>");
+			//}
+		</script>
+	</div>-->
+	<!--<div id="text">
+		<p>
+			Some text
+		</p>
+	</div>-->
+		<!--/*
+		let a = ['2', '4', '6', '8'];
+		alert(a);
+		alert(a[0] * a[1]);
+		alert(a[1] * a[2]); 
+		alert(a[2] ** a[3]);*/
+		//ищем кинетическую энергию
+		//document.write('Ищем кинетическую энергию тела массы м и скорости v');
+		//let m = prompt('Введите массу тела d кг', '');
+		//let v = prompt('Введите скорость движения тела в км/ч');
+
+		//let f = (m * (v ** 2))/2;
+
+		//document.write('<p> Кинетическая энергия тела, указанного вами равна ' + ' ' + f + ' Дж' + '</p>');
+		//let person = {};
+		//person.age = 22;
+		//person.heir = 'red';
+		//person.eye = 'blue';
+		//alert(person.age);
+		//let myChair = {
+			//"cushionMaterial" : "",//1 
+			//"numberOfLegs" : "",//2
+			//"legHeight" : "",//3
+		//};
+		 //function configChair () {
+		 	//let userValue;
+
+		 	//for (let property in myChair) {
+		 	//	if (myChair.hasOwnProperty(property)) {
+		 		//	userValue = prompt("Enter mean " + property);
+		 		//	myChair[property] = userValue;
+		 		//}
+		 	//}
+		// }
+
+		 //function writeChaireRecepiet () {
+		 //	document.write("<h2> Object chair will be have next configuration: </h2>");
+		 //	for (let property in myChair) {
+		 	//	if (myChair.hasOwnProperty(property)){
+		 	//		document.write(property + " : " + myChair[property] + '</br>');
+		 	//	}
+		 //	}
+		// }
+		// configChair();
+		// writeChaireRecepiet();
+		//let sandwich = {
+			//ингридиенты сэндвича
+			//meat: "",
+			//chese: "",
+			//bread: "",
+			//condiment: "",
+			//makeSendwich: function (meat, chese, bread, condiment) {
+				// функция приготовления ингридиентов
+				//sandwich.meat = meat;
+				//sandwich.chese = chese;
+				//sandwich.bread = bread;
+				//sandwich.condiment = condiment;
+				//let mySandwich = sandwich.bread + "," + sandwich.meat + "," + sandwich.chese + "," + sandwich.condiment;
+				//return mySandwich;
+			//}
+		//}
+		//let sandwichOrder = sandwich.makeSendwich("ham", "chedder", "wheat", "spicy mustard");
+		//document.write(sandwichOrder);//переменная заказа
+		//function Person() {
+			//this.eyes = "blue",
+			//this.le = 2,
+			//this.head = 1,
+			//this.heir = "red",
+			//this.hend = 2,
+			//this.clow = "white"
+		//}
+		//let williNelsen = new Person();
+		//alert(williNelsen.leg);
+/*
+
+		//создаем функцию-обьуктб где перечисляем все свойства
+		function Person () {
+			this.eyes = 2;
+			this.tith = 1;
+			this.heir = "red";
+			this.leg = 2;
+			this.handls = 2;
+			this. head = 1;
+			this.ass = 1;
+			this.hear = 2;
+		}
+
+		//создаем новые обьекты
+		let monicaBel = new Person();
+		let arnyShwar = new Person();
+		let jonyD = new Person();
+
+		//добавляем новые свойства
+
+		Person.prototype.knees = 2;
+		Person.prototype.toes = 10;
+		Person.prototype.elbows = 2;
+
+		//проверим наличие новых свойств у нашего нового обьекта
+		//document.write(jonyD.toes);
+		//document.write(monicaBel.knees);
+		document.write(arnyShwar.elbows);
+
+		*/
+/*
+
+//создаем объекты с помощью команды create
+let Person = {
+	eyes: 2,
+	legs: 2,
+	feet: 2
+};
+//создаем объект на основе Person
+let williNelsen = Object.create(Person);
+//проверим наличие нового объекта
+document.write(williNelsen.legs);
+*/
+
+
+
+//проверяем, есть ли в браузере поддержка audio
+//создаем элемент audio
+//let audioTry = document.createElement('audio');
+//если он присутствует выведем истину нет выведем ложь
+//if (audioTry.play) {
+	//console.log('yes');
+//}else{
+	//console.log('non');
+//}
+
+
+
+
+
+//мы попробуем загрузить что-то с другого сайта на наш сайт
+//используя некоторые методы функции окна
+//function loadNewPage (url) {
+	//window.location = url;
+//}
+
+//создаем новую переменную которая будет ссылаться 
+// на новый адрес
+//let newURL = prompt("Enter new Url.");
+//loadNewPage(newURL);
+
+
+
+
+
+//попробуем определить ширину окна браузера воспользовавшись js
+//для этого используем функцию окна браузера
+//let currentWidth = window.innerWidth;
+ //if(currentWidth == 480) {
+ 	//console.log("your window is small");
+ //} else if(currentWidth < 720 && currentWidth > 480) {
+ //	console.log("your window is middle");
+ //}else if(currentWidth < 1200 && currentWidth > 720) {
+ //	console.log("your window is big")
+// }
+
+
+
+
+
+
+//создаем кнопку назад и кнопку история в нашем окне браузера
+//function takeMeBack () {
+	//window.location(window.history.go(-1));
+//}
+//дальше создаем функцию позволяющую ковырять историю
+//function getHistoryLength () {
+	//let leng = window.history.length;
+	//return leng;
+//}
+
+//создаем функцию просмотра истории
+//let historyLength = getHistoryLength();
+//document.write("<p> Welcome! Колличество посещенных в данном окне вами страниц: " + historyLength + "." + "</p>");
+
+
+//открывает новое окно
+//window.open();
+
+//выводим содержимое окна
+//window.print();
+
+//декщдирование строки
+//window.atob();
+
+
+//дeлаем текущее окно неактивным
+//window.blur();
+
+//отмуняем выполнение кода заданного через интервал
+//window.clearInterval();
+
+//отменяем выполнение кода заданного timeout
+//window.clearTimeout();
+
+//закрываем текущее окно
+//window.close();
+//кстати, сценарии не могут закрывать окна открытые другимим сценариями
+
+//открываем окно confirm
+//window.confirm();
+
+//создаем всплывающее оконце	
+//window.Popup();
+//часто браузеры их блокируют
+
+//делаем текущее окно активным
+//window.focus();
+
+
+//перемещаем окно на заданную величину
+//window.moveBy(450, 450);
+
+
+//перемещаем окно в заданную позицию	
+//window.moveTo(300, 300);
+
+
+//открываем новое окно
+//window.open();
+
+
+//печатаем содержимое страницы
+//window.print();
+
+//изменяем размеры окна на заданное колличество пикселей
+//window.resize(120);
+
+//window.stop();
+
+
+//let myNodeList = document.body.childNodes[1].childNodes;
+//выведем список всех дочерних елементов в документе на странице
+
+//for (let i = 0; i < myNodeList.length; i++) {
+	//document.write(myNodeList[i] + "</br>");
+//}
+
+
+
+//обход всего дерева с помощью js
+//function boldFirstAndLastNav () {
+	//document.body.childNodes[1].firstChild.style.fontWeight = "bold";
+	//document.body.childNodes[1].lastChild.style.fontWeight = "bold";
+//}
+//для правильного выбора и стилизации элементов
+// все пробелы внутри nav должны быть удалены
+
+
+
+
+
+//ПОЛНЫЙ ПЕРЕЧЕНЬ И ПРИМЕНЕНИЕ ВСЕХ СВОЙСТВ ДОКУМЕНТА
+
+//document.anchors() получаем якоря ссылок
+
+//document.applets() получаем весь список апплетов
+
+//document.baseURL() получаем базовый URL
+
+//document.body() получаем значение узла body
+
+//document.cookie() получаем или отправляем куки
+
+//document.doctype() получаем тип документа
+
+//document.Element() получает корневой елемент
+
+//document.documentMode() получаем режим визуализации используемый брауезром
+
+//document.documentURL()получаем или устанавливаем расположение документа
+
+//document.domain()получаем доменное имя сервера загрузившего документ
+
+//document.embeds()получаем список 	embed в документе
+
+//document.forms()получает коллекцию всех элементов forms
+
+//document.head()получает знгачение head
+
+//document.images() получает список всех images
+
+//document.implamentation()получает список дом импликаций обрабатывающих документ
+
+//document.lastModified()получает дату и время последнего изменения документа
+
+
+//document.links()получает коллекцию всех элементов a. area. href
+
+//document.readyState() получает состояние загрузки
+
+//document.refferer()получает адрес с которым был связан документ
+
+//document.scripts() получает список всех скриптов на странице
+
+//document.title()получает или устанавливает заголовок
+
+//document.URL()получает полный URL адрес
+
+//document.addEventListener() назначает обработчика событий
+
+//document.adoptNode()заимствует узел из внешнего документа
+
+//document.close()закрывает для записи документ
+
+//document.createAttribute() создает узел атрибута
+
+//document.createComment()создает узел комментария
+
+//document.createDocumentFragment()создает пустой фрагмент документа указанного размера
+
+//document.createElement()сщздает узел элемента
+
+//document.createTextNode()создает узел текста
+
+//document.getElementById()получает елемент по заданному шдентификатору
+
+//document.getElementsByClassName()получает все элементы документа по классу
+
+//document.getElemtntsByName()получет все узлы по именам
+
+
+//document.getElementsByTagName()получает все по именам тегов
+
+//document.importNode() копирует содержимое из внешнего документа
+
+//document.normalize()удаляет пустые узлы и сближает смежные
+
+//document.open()открываем документ для записи
+
+//document.querySelector() получает перввый селектор в документе совпадающий с указанным
+
+//document.querySelectorAll()получает все селектора подобрные указанным селекторам
+
+//document.removeEventListener()удаляет обработчика событий
+
+//document.renameNode()переименовывает существующий узел
+
+//document.write()записывает код или разметку в документ
+
+//document.writeIn()добавляет код или разметку каждый раз с новой с троки	
+
+
+
+
+
+
+//innerHTML содержит все, что заключено между начальным и конечным тегами некоторого едеиента DOM
+
+
+//document.body.firstChild.innerHTML.setAttribute("class", "myclass");
+//первый дочерний элемент получит класс
+
+
+
+
+
+
+
+
+//пример нескольких переменных ссыдлающихся на один и тот же объект
+
+//установка на пустой объект
+//let obj = new Object();
+
+//создаем переменную ссылающуюся на нашу первую переменную	
+//let objRef = obj;
+
+//модернизируем первую переменную то есть ссылку
+//obj.oneProperty = true;
+//данное измененение предстьавлено в обоих переменных, ведь они ссылаються на одно и тоже место
+
+//alert(obj.oneProperty === objRef.oneProperty);//true
+
+
+
+
+
+//пример живого самомодифицируещегося массива
+
+//создаем массив
+//let items = new Array ("one", "two", "three");
+
+//создаем ссылку на объект-массив
+//let itemsRef = items;
+
+//добавляем елемент к исходному массиву
+//items.push("throu");
+
+//по идее длина массива должна быть одинаковой при вызове из разных ссылок
+//alert(items.length === itemsRef.length);//true
+
+
+//теперь посмотрим на поведение списка при немного других обстоятельствах
+//let items = new Array ("one", "two", "three");
+
+//let itemsRef = items;
+
+//теперь установим нашу пеменную на новый массив
+//items = new Array ("new", "array");
+
+//теперь переменные указывают на разные объекты
+//alert(items != itemsRef)//true
+
+//теперь рассматриваем уникальный случай самоиндетификации массива
+
+//установим переменную на строковое значение
+//let items = "test";
+
+//let itemsRef = items;
+
+//items += "ing";
+
+// был создан абвослютно новый строковый объект. так что переменные не равны друг другу
+//alert(items != itemsRef)//true
+
+
+
+
+
+
+
+
+
+
+//решение квадратного уравнения
+
+//let a = prompt('enter number a');
+//let b = prompt('enter number b');
+//let c = prompt('enter number c');
+//let d = b**2 - 4*a*c;
+//let x1 = (-b + d**0.5)/2*a;
+//let x2 = (-b - d**0.5)/2*a;
+//document.write("<p> x1 = " + x1 + "</p>");
+//document.write("<p> x2 = " + x2 + "</p>");
+
+
+
+
+
+
+
+
+//береб один из елементов и удаляем его
+// в данном случае елемент h1
+
+ //function getTagNames (tagName) {
+ 	//let getTags = document.getElemtntsByTagName(tagName);
+ 	//for (let i = 0; i < getTags.length; i++) {
+ 		//getTags[i].innerHTML = i + 1;
+ 	//};
+ //}
+ //getTagNames("h1");
+
+
+
+
+
+//создаем ункцию которая будет брать елемент по его классу и 
+// изменять
+
+//function checkMath(result) {
+	//let userMath = document.getElementById("answerl").value;
+	//let errors = document.getElemtntsByClassName("error");
+	//if(parseInt(userMath) != parseInt(result)) {
+		//errors[0].innerHTML = "Wrong! You entered" + userMath + "Rith answer " + result;
+	//}else {
+		//errors[0].innerHTML = "Correct!";
+	//}
+
+//}
+
+
+
+
+
+//let typeOffBall = ["bascet", "base", "hand", "polo", "socer", "foot"];
+//создали массив с именами типов мячей
+//создаем цикл и выводим с его помощью все виды мячей
+//for (let i = 0; i < typeOffBall.length; i++) {
+	//let listElement = document.createElement("li");
+	//listElement.innerHTML = typeOffBall[i];
+	//document.getElementById("ballList").appendChild(listElement);
+//}
+
+
+
+
+
+
+//создаем функцию удаляющую один елемент dom
+//function removeFirstParagraph () {
+	//let firstPara = document.getElementById("firstparagraph");
+	//firstPara.parentNode.removeChild(firstPara);
+//}
+
+
+
+//по сути написание простейшего калькулятора довольно увлекательный
+// процесс и пишется интересно и лекгкло
+//let a = prompt("введите какое-гнибудь чтисло");
+//let b = prompt("введите какое нибудь число");
+
+
+//let d = parseInt(a) + parseInt(b);
+//let f = parseInt(a) * parseInt(b) ;
+
+//alert(d);
+//alert(f);
+
+
+
+
+
+
+//function createPara () {
+	//let text = prompt("введите какойнибудь текст");
+
+
+	//document.write("<p>" + text + "</p>");
+//}
+//createPara();
+
+
+
+//подключение событий к dom
+//ждем окончание загрузки окна и только после этого грузим обработчик
+//window.onload = initializer;
+//создаем глобальную переменную для счетчика
+//let count = 0;
+/**
+регистрируем событие jnclick
+*/
+//function initializer () {
+	//document.getElementById("incrementButtonn").onclick = increaseCount;
+	/** 
+	инкрементирует переменную и отображает результат
+	*/
+	//function increaseCount () {
+		//count++;
+		//document.getElementById("currentCount").innerHTML = count;
+	//}
+
+
+//}
+
+
+
+
+
+
+//в следующем коде используется такой обработчик как addEventListene
+//window.addEventListener('load', registerEvents, false);
+//также создаем глобальную переменную для счетчика
+//let count = 0;
+/**
+слудующая функция регистрирует событие 
+*/
+//function registerEvents (e) {
+	//document.getElementById("incrementButtonn").addEventListener('click', increaseCount, false);
+	//document.getElementById("incrementButtonn").addEventListener('click', changeSize, false);
+//}
+	/**
+	инкрементирует переменную и отображает результат
+	*/
+
+	//function increaseCount (e) {
+		//count++;
+		//document.getElementById("currentCount").innerHTML = count;
+	//}
+	/**
+	слудующая функция изменяет размер выводимого в переменной
+	*/
+	//function changeSize (e) {
+		//document.getElementById("currentCount").style.fontSize = count;
+	//}
+
+
+
+
+
+	//дожидаемся загрузки окна и лишь потом регим событие
+	//window.addEventListener("load", registerEvents, false);
+	//слудующая функция регит событие	
+	//function registerEvents (e) {
+		//document.getElementById("capTitle").addEventListener("click", makeTiny, true);
+		//document.getElementById("capEvent").addEventListener("click", makeHuge, true);
+		//document.getElementById("bubTitle").addEventListener("click", makeTiny, false);
+		//document.getElementById("bubEvent").addEventListener("click", makeHuge, false);
+	//}
+	//функция увеличения текста	
+	//function makeHuge (e) {
+		//console.log("увеличиваем выводимый текст");
+		//document.getElementById("theText").style.fontSize = "80px";
+	//}
+	//функция уменьшения текста
+	//function makeTiny (e) {
+		//console.log("уье6ньшаем размер тукста");
+		//document.getElementById("theText").style.fontSize = "10px";
+	//}
+
+
+
+
+
+//можно отменить все события иллюстрация ниже
+//function load (e) {
+//if (!е) varе = window.event;
+/// у стан о ви ть c a n c e lB u b b le для IE 8 и более ранних //версий
+//е.cancelBubble=true;
+//if (е.stop Propagation)е.stop Propagation();
+//d o c u m e n t.g e tE le m e n tB y ld (" c a p T i t l e " ) . a d d E v e n t L is t e n e r
+//( ' c li c k ', m a k e T i n y , t r u e ) ;
+//d ocu m en t. g e t E le m e n t B y ld (" c a p E v e n t" ) . a d d E v e n t L is t e n e r
+//( ' c lic k ',m a k e H u g e , tru e ) ;
+//d o cu m en t. g e t E le m e n t B y ld (" b u b T it le " ) . a d d E v e n t L is t e n e r
+//( ' c lic k ', m a k e T in y , f a ls e ) ;
+//d o cu m en t. g e t E le m e n t B y ld ("b u b E v e n t" ) . a d d E v e n t L is t e n e r
+//( ' c lic k ', m a k e H u g e , f a ls e ) ;
+
+
+
+
+
+//function setFormDefaults () {
+	//document.forms.subscribeForm.method = "post";
+	//document.forms.subscribeForm.target = "_blank";
+	//document.forms.subscribeForm.action = " h t t p : / / w a t z t h is . u s 9 . lis t - m a n a g e . c o m / s u b s c rib e";
+	//прописали метод отправки на сервер
+	// прописали открытие в отдельном окне
+	// прописали адрес на который нужно отправить данные
+
+	//теперь регим события кнопки формы
+	//document.getElementById("btnSubscribe").addEventListener("click", submitForm);
+	//document.getElementById("btnReset").addEventListener("click", resetForm);
+//}
+//дальше пишим функцию отправки
+//function submitForm () {
+	//document.forms.subscribeForm.submit();
+//}
+
+//функция уничтожения или обнуления формы
+//function resetForm () {
+//	document.forms.subscribeForm.reset();
+//}
+
+
+
+//выведем все свойства ключей и знаений
+//let user = {
+	//name: "john",
+	//age: 30,
+	//isAdmin: true
+//};
+//for(let key in user) {
+	//alert(user[key]);
+	//alert(key);
+//}
+
+
+
+
+
+
+
+
+//создаем пустой объект
+//let emptyObj = {
+	//name: "John",
+	//surname: "Smith",
+//};
+//emptyObj[name] = "Pete";
+//delete emptyObj[name];
+//alert(emptyObj);
+
+
+
+//напишем функцию проверяющую пустой ли объект
+//function isEmpty (obj) {
+	//let empty = {};
+	//for(key in empty){
+	//return false;
+	//}
+	//return true}
+//let testFunc = {};
+//alert(isEmpty(testFunc));
+
+
+
+
+
+//напишем код для заданного значения переменных в обхекте
+//let salaris = {
+	//John: 100,
+	//Ann: 130,
+	//Pete: 160
+//};
+//реобходимо написать такую переменную, чтобы она выводила сумму зщарплат
+//let sumSalari = (salaris.John + salaris.Ann + salaris.Pete);
+//alert(sumSalari);
+
+//другая реализация
+//let sum = 0;
+//for (let key in salaris){
+	//sum += salaris[key];
+//}
+//alert(sum);
+
+
+
+
+
+
+//необходимо умножить все числовые значения объекта на 2
+
+//let menu = {
+//	width: 200,
+//	height: 200,
+//	title: "Mynenu"
+//};
+// создаем функцию проверки что наш объект содержит числовые данные
+//  после чего эти числовые данные умножаем на 2
+//function numericMultiple (obj) {
+	//предположим что у нас есть не только числовые данные
+	// следовательно нам необходимо сначала проверить
+	// числа у нас или что-то другое
+	// для этого воспользуемся одной встроенной функцией.
+//	if (typeOf obj[key] = 'number') {
+//		for (let key in menu){
+//			menu.[key] * 2;
+//		}
+//	}
+//}
+//alert(numericMultiple(menu));
+
+
+
+
+
+//более приемлемый вариант
+//function multiplyNumeric(obj) {
+  //for (let key in obj) {
+  //  if (typeof obj[key] == 'number') {
+   //   obj[key] *= 2;
+  //  }
+ // }
+//}
+
+
+
+
+
+
+
+
+
+
+
+//пример взаимосвязанных объектов
+//function marry (man, woman) {
+//	woman.husband = man;
+//	man.wife = woman;
+
+//	return {
+//		father: man,
+//		mother: woman
+//	}
+//}
+//тупурь создаем переменную сумьи и женимся
+//let family = marry ({
+	//name: "John"
+//},{
+//	name: "Anna"
+//});
+//таким образом функция женит два объекта и дает им ссылки друг на друга
+//alert(family);
+// если мы напишем
+// family = null;
+//все данные этого объекта уничтожит уборщик мусора
+
+
+//сщздаем символ с именем id
+//описание или имя символа в данном случае id ни на что не влияет
+//let id = Symbol("id");
+//два символа с одинаковыми именами не равны. пример ниже
+//let id1 = Symbol("id");
+//let id2 = Symbol("id");
+//alert(id1 === id2);
+//символы не преобразуюутсмя явно автоматически в строки
+//символы позволяют создавать скрытый код
+// пример внизу
+//Например, мы работаем с объектами user, которые принадлежат стороннему коду. Мы хотим добавить к ним идентификаторы.
+
+//let user = {
+//	name: "Вася"
+//};
+//let id = Symbol("id");
+
+//user[id] = 1;
+
+//alert(user[id]);
+//мы воспользовались ключем-сиьволом
+
+// читаем символ из глобального реестра и записываем его в переменную
+//let id = Symbol.for("id"); // если символа не существует, он будет создан
+
+// читаем его снова в другую переменную (возможно, из другого места кода)
+//let idAgain = Symbol.for("id");
+
+// проверяем -- это один и тот же символ
+//alert( id === idAgain ); // true
+
+
+
+
+
+//получаем символ по имени
+//let Sym = Symbol.for("name");
+//let Sym2 = Symbol.for("id");
+//ф туперб получаем имя по символу
+//alert(Symbol.keyFor(Sym));
+//alert(Symbol.keyFor(Sym2));
+//только для глобальных символов
+//но для любых и глобальных и не глобальных символов доступно	
+// свойство description пример ниже
+//let globalSymbol = Symbol.for("name");
+//let localSymbol = Symbol("name");
+
+//выведем
+
+//alert(Symbol.keyFor(globalSymbol));//name
+//alert(Symbol.keyFor(localSymbol));//undefine
+
+//но кое что можно сделать чтобы вывести через локальный символ
+//alert(localSymbol.description);//name
+
+
+
+
+
+
+//ребольшая иллюстрация работы ключевого слова this
+//let user = {
+//	name: "John",
+//	age: 34,
+//	sayHi(){
+//		alert(this.name);//this это текущий объект
+	//}
+//};
+//user.sayHi();//функция превращается в метод
+
+
+
+
+
+
+
+
+//иллюстрация потери кл.чевого слова this
+//let user = {
+//	name: "John",
+//	hi() {alert(this.name);},
+//	buy() {alert("By");}
+//};
+
+//user.hi()//простой метод вызова работает
+
+//(user.name == "John" ? user.hi : user.by)(); //ошибка
+
+
+
+
+
+//у стрелочных функций нет своего слова this
+//пример ниже
+
+//let user = {
+	//firstName: "Ilion",
+	//lastName: "filimon",
+	//sayHi(){
+	//	let arrow = () => alert(this.firstName);
+	//	arrow();
+	//}
+//};
+//user.sayHi();//выведет Ilion
+
+
+
+
+//function makeUser () {
+//	return {
+//		name: "John",
+	//	ref: this
+	//};
+//};
+
+//let user = makeUser();
+//alert(user.ref.name);//undefined
+// мы изменим кое что в вызове и заменим ref на ref()
+//ref() {
+//	return this}
+
+
+
+
+//пишем калькулятор с методами
+//let calcul = {
+//	read() {
+//		a = +prompt("enter number");
+//		b = +prompt("enter number");
+//},
+//	sum() {
+//		return a + b;
+//	},
+//	mul(){
+//		return a * b;
+//	}
+//};
+//создали три метода для нашего калькулятора
+//calcul.read();
+//alert(calcul.sum());
+//alert(calcul.mul());
+
+
+
+
+
+
+
+
+//цепочесные методы вызовов
+//let ladder = {
+	//step: 0,
+	//up() {
+	//	this.step++;
+	//	return this;
+	//},
+	//down() {
+	//	this.step--;
+	//	return this;
+	//},
+	//showStep() {
+	//	alert(this.step);
+	//	return this;
+	//}
+//}
+//вызов по цепочке или иначе летнице	
+
+//ladder
+//.up()
+//.up()
+//.down()
+//.down()
+//.showStep();//1
+ 
+
+
+
+
+
+
+
+
+//Демонстрация получения и установки значений
+//полей in p u t формы на примере простого калькулятора
+
+//function registerevents() {
+	//document.mathWiz.operate.addEventListener("click", doTheMath, false);
+//}
+
+//function doTheMath() {
+//	let first = parseInt(document.mathWiz.numberOne.value);
+//	let second = parseInt(document.mathWiz.numberTwo.value);
+//	let operator = document.mathWiz.operator.value;
+
+//	switch (operator) {
+//		case "add":
+//		let answer = first + second;
+//		break;
+//		case "subtract":
+//		let answer = first - second;
+//		break;
+//		case "multiply":
+//		let answer = first * second;
+//		break;
+//		case "divide": 
+//		let answer = first / second;
+//		break;
+//	document.mathWiz.theResult.value = answer;
+//}
+
+
+
+-->
+
+
+<script>
+//анимация елемента с помощью js
+
+//дождемся загрузки окна
+//window.addEventListener('load', initializer, false);
+
+//function initializer() {
+	//переместить квадрат после щелчка на нем
+	//document.getElementById("square").addEventListener('click', function(e) {
+		//получаем начальную позицию
+		//let left = window.getComputedStyle(e.target).getPropertyValue("left");
+		//преобразовать left в десятичное число
+		//left = parseInt(left, 10);
+		//moveSquare(left, 100);
+	//}, false);
+//}
+
+
+
+
+//function moveSquare(left, numMoves) {
+	//document.getElementById("square").style.left = left + "px";
+		//if (numMoves > 0) {
+		//	numMoves--;
+		//	left++;
+		//	setTimeout(moveSquare,25, left, numMoves)
+		//} else {
+		//	return;
+		//}
+	//}
+
+
+
+
+
+
+
+
+
+	//работа с изображениями
+//заменяем одно изображение другим
+//function swapImage(imgToSwap) {
+//	imgToSwap.src = "metal_339-292935113.jpg";
+	//imgToSwap.alt = "Указатель над кнопкой";
+//}
+//function swapBack(imgToSwap) {
+//	imgToSwap.src = "i.webp";
+//	imgToSwap.alt = "Наведи на меня указатель чучело!";
+//}
+
+
+//теперь немного изменяем код для того чтобы изменялся размер
+//изображения оно будет немного увеличиваться
+
+//function growImage(imgToGrow) {
+//	imgToGrow.windth += imgToGrow.windth * .05;
+//	imgToGrow.height += imgToGrow.height * .05;
+//}
+
+//function restoreImage(imgToGrow) {
+//	imgToGrow.windth = imgToGrow.naturalWindth;
+//	imgToGrow.height = imgToGrow.naturalHeight;
+//}
+
+
+
+
+//пишем карусель на чистом js без эффекта перехода
+//код не особо идеален
+
+//let slides = [
+//"<div id='slide1'>my first slide <br><img scr = ''</div>",
+//"<div id='slide2'>my two slide <br><img scr = ''</div>",
+//"<div id='slide3'>my third slide <br><img scr='22400749.jpg'</div>"
+//];
+
+//создали массив с изображениями и дивами
+ //let currentSlide = 0;
+ //let numberOffSlides = slides.length - 1;
+
+
+// window.addEventListener("load", loader, false);
+
+// function loader() {
+// 	changeImage();
+ //}
+
+ //function changeImage() {
+ //	console.log("finc changeImage()");
+ //	if (currentSlide > numberOffSlides) {
+ //		currentSlide = 0;
+ //	}
+ //	document.getElementById("carousel").innerHTML = slides[currentSlide];
+ //	console.log("отображается слайд" + currentSlide + "из" + numberOffSlides);
+ //	currentSlide++;
+ //	setTimeout(changeImage, 1000);
+ //} 
+
+
+//используем язык в куче с возможностями css
+
+//window.addEventListener("load", registerEvents, false);
+//дожидаемся загрузки старницы после чего занимаемся скриптом
+
+//пишем обработчика
+//function registerEvents(e) {
+//	document.getElementById("stop").addEventListener("click", stopAni, false);
+//	document.getElementById("go").addEventListener("click", startAni, false);
+//}
+
+//прописываем функционал	
+
+//function stopAni() {
+//	document.getElementById("words").style.webkitAnimationPlayState = "paused";
+//	document.getElementById("words").style.AnimationPlayState = "paused";
+//}
+
+//function startAni() {
+//	document.getElementById("words").style.webkitAnimationPlayState = "running";
+//	document.getElementById("words").style.AnimationPlayState = "running";
+//}
+
+
+
+
+
+
+//использование регулярных выражений
+//window.addEventListener("load", registerEvents, false);
+
+//function registerEvents(e) {
+//	document.getElementById("ask").addEventListener("click", findAnswer, false);
+//}
+//function findAnswer() {
+	//получаем пользовательский вопрос
+	//let question = document.getElementById("userQuestion").value;
+	/**создаем новое регулярное выражение которое ищет в строках полное совпадение с именем языка JavaScript*/
+
+	//let re = new RegExp("JavaScript");
+	//если в запросе найдено необходимое сочетание
+	//if (re.test(question) === true) {
+		//выводим ответ
+	//	document.getElementById("answer").innerHTML = "Вопросы по js ? обратитесь на сайт";
+		//пишем js  консоль
+	//	console.log("js");
+	//}
+//}
+
+
+
+//создание регулярного выражения используемого во время закгрузки приложения с помощью RegExp
+
+//window.addEventListener("load", loader, false);
+//получаем случайную букву	
+
+//let letter = String.fromCharCode(97 + Math.floor(Math.random() * 26));
+
+
+/** теперь создаем регулярное выражение используя буковку
+установить опцию g для нахождения всех вхождений
+*/
+//let re = new RegExp(letter, 'g');
+
+//теперь пишем функцию обработчика	
+
+//function loader(e) {
+	//document.getElementById("getText").addEventListener('submit', countLetter, false);
+//}
+
+//пишем функцию подсчета буковок
+//function countLetter(e) {
+//	e.preventDefault();
+//	document.getElementById("results").innerHTML = "Была выбрана секретная буковка" + letter + ".";
+//	
+//	let userText = document.getElementById("userWords").value;
+//	let matches = userText.match(re);
+//	let count = matches.length;
+//	document.getElementById("results").innerHTML += "Вы ввели секретную букву" + count + "раз.";
+//}
+
+
+//сценарий проверки правильности написания электронной почти с 
+// помощью регулярных выражений
+
+//window.addEventListener("load", loader, false);
+//function loader(e) {
+	//e.preventDefault();
+	//document.getElementById("emailinput").addEventListener("submit", validateEmail, false);
+//}
+//пишем функцию валидации
+//function validateEmail(e) {
+//	let re = /\[A-Z0-9._&+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i;
+//	if (re.test(e.target.yourEmail.value)) {
+//		alert("Верно!");
+//	} else {
+//		alert("Не верно!");
+//	}
+//}
+
+
+
+
+
+
+
+//примеры замыкания функций
+
+//function doMath(number1, number2, callback) {
+	//let result = callback(number1, number2);
+	//document.getElementById("theResult").innerHTML += ("Результат:" + result + "</br>");
+//}
+//document.addEventListener("DOMContentLoaded", 
+//	function() {
+		//doMath(5, 2, function(number1, number2) {
+		//	let calculation = number1 * number2;
+	//});
+		//doMath(10, 3, function(number1, number2) {
+		//	let calculation = number1 / number2;
+		//	return calculation;
+	//});
+	//	doMath(81, 9, function(number1, number2) {
+	//			let calculation = number1 % number2;
+	//			return calculation;
+	//});
+	//	}, false);
+
+
+//использование именнованных функций в колбеках
+
+//function doMath(number1, number2, callback) {
+	//if (typeof callback === "function") {
+	//	let result = callback(number1, number2);
+	//	document.getElementById("theResult").innerHTML += (callback.toString() + "<br><br>Результат: " + result + "<br><br>");
+	//}
+//}
+
+//function multiplyThem(number1, number2) {
+//	let calculation = number1 * number2;
+//	return calculation;
+//} 
+
+//function divideThem(number1, number2) {
+//	let calculation = number1 / number2;
+//	return calculation;
+//}
+
+//function modThem(number1, number2) {
+//	let calculation = number1 % number2;
+//	return calculation;
+//}
+
+//document.addEventListener("DOMContentLoaded", 
+//	function () {
+//		doMath(5, 2, multiplyThem);
+//		doMath(10, 3, divideThem);
+//		doMath(81, 9, modThem);
+//	}, 
+//	false);
+
+
+
+//пример создания функции внутри другой функции
+
+//function greetVisitor(phrase) {
+//	let Welcome = phrase + "Рад тебя видеть";//это локальная пер-я
+//
+//	let sayWelcome = function() {
+//		alert(Welcome);
+//	}
+//	return sayWelcome;
+//}
+
+//let personalGreeting = greetVisitor("Привет");
+//personalGreeting();//Привет рад видеть тебя
+
+//alert("personalGreeting.toString()\n\n" + personalGreeting.toString());
+
+
+
+//function Question(question) {
+//	let ph = function() {
+//		let mom = question + prompt("fghhf");
+//		alert(mom);
+//	}
+//	return ph;
+//}
+//let boom = Question("xnj nfv?");
+//boom();
+
+
+
+//пример замыканий с секретными ссылками
+
+//function greetVisitor(phrase) {
+//	let welcome = phrase + ".Hellow<br><br>";//local variable
+//	let sayWelcome = function() {
+//		document.getElementById("greeting").innerHTML += welcome;
+//	}
+
+//	return sayWelcome;
+//}
+//ждем пока загрузиться страница	
+
+//	document.addEventListener("DOMContentLoaded",
+//		function() {
+			//создать функцию
+//			let personalGreeting = greetVisitor("Hola Amiga");
+			//создаем еще одну функцию
+//			let anotherGreeting = greetVisitor("Howdy fraind");
+
+			//просмотрим код первой функции
+//			document.getElementById("greeting").innerHTML +=
+//			"personalGreeting.toString()<br>" + 
+//			personalGreeting.toString() + "<br>";
+
+			//теперь выполняем код первой функции
+//
+//			personalGreeting();//hola amiga рад тебя видеть
+
+			//теперь просматриваем вторую функцию
+//
+	//		document.getElementById("greeting").innerHTML += 
+	//		"anotherGreeting.toString() <br>" + anotherGreeting + "<br>";
+			//выполним ее
+
+		//	anotherGreeting();//hola amiga рад видеть тебя
+
+			//дальше завершаем метод слушателя событий
+
+		//}, false);
+
+
+
+
+//построение фабрики по производству функций
+
+//function createMessageAlert(theMessage) {
+	//return function() {
+	//	alert(theMessage);
+	//}
+//}
+// let badEmailError = createMessageAlert("Hеизвестный адресс электронной почты");
+//let wrongPassportError = createMessageAlert("Хреновый пароль");
+
+ //window.addEventListener("load", loader, false);
+
+ //function loader() {
+ //	document.login.yourEmail.addEventListener("change", badEmailError);
+ //	document.login.yourPassword.addEventListener("change", wrongPassportError);
+ //}
+
+//задача с собеседования
+//let fign = (2).plus(3).minus(1);
+//Number.prototype.pluse = function(value) {
+//	return this + value;
+//}
+//Number.prototype.minus = function(value) {
+//	return this - value;
+//}
+
+//ипользование XMLHttpRequest
+//window.addEventListener("load", init, false);
+
+//function init(e) {
+//	document.getElementById("myButton").addEventListener("click", documentLoader, false);
+//}
+
+//function reqListener() {
+//	console.log(this.responseText);
+//	document.getElementById("content").innerHTML = this.responseText;
+//}
+//главная функция следующая
+//function documentLoader() {
+//	let oReq = new XMLHttpRequest();
+//	oReq.onload = reqListener;
+//	oReq.open("get", "loadme.txt", true);
+//	oReq.send();
+//}
+
+
+
+
+
+
+//отображение json с помощью js
+
+//window.addEventListener("load", init, false);
+
+//function init(e) {
+//	document.getElementById("myButton").addEventListener('click', documentLoader, false);
+//}
+
+//function reqListemer() {
+	//преобразуем объект в строку с помощью функции parseJSON
+//	let obj = JSONparse(this.responseText);
+	//отображаем данные объекта обычным способом
+//	document.getElementById("book_titte").innerHTML = obj.book_titte;
+//	document.getElementById("book_author").innerHTML = obj.book_author;
+	//document.getElementById("summary").innerHTML = obj.summary;
+
+//}
+
+
+//function documentLoader() {
+	//let oReq = new XMLHttpRequest();
+	//oReq.onload = reqListener;
+	//oReq.open = ("get", "Листинг16-4.json",true);
+	//oReq.send();
+//}
+
+
+
+
+
+
+//получение геолокации и ее отражение в браузере
+//let gps = navigator.geolocation.getCurrentPosition(
+	//function(position) {
+	//	for (key in position.coords) {
+		//	document.write(key + ":" + position.coords[key]);
+		//	document.write("<br>");
+		//}
+	//});
+
+
+//работа с видео и аудио	
+
+
+//window.addEventListener("DOMContentLoaded", function() {
+//	let v = document.getElementById("v");
+//	navigator.GetUserMedia();
+
+//	if(navigator.GetUserMedia) {
+		//запрашиваем доступ только к видео
+//		navigator.GetUserMedia(
+//		{
+	//		video: true,
+	//		audio: false
+	//	},
+	//	function(stream) {
+	//		let url = window.URL || window.webkitURL;
+	//		v.src = url?url.createObjectURL(stream) : stream;
+	//		v.play;
+	//	},
+	//	function(error) {
+		//	alert("Чтото пошло не так (код ошибки" + error.code + ')');
+		//	return;
+	//	}
+	//	);
+	//}
+	//else {
+	//	alert("Извините");
+	//	return;
+	//};
+//});
+//ре все браузеры поддерживают и не получилось у меня по нормальному запустить эту хреновину
+//возможно что-то упустил из виду но пока на это нет времени
+
+
+
+
+
+
+
+</script>
+
+<!--<video id = "v" autoplay></video>-->
+<!--<form name="login" id = "loginform">
+<p>
+<label>Введите адрес электронной почты:
+<input type = "text" name= "yourEmail">
+</label>
+</p>
+<p>
+<label>Введите пароль:
+<input type = "text" name="yourPassword">
+</label>>
+</p>
+<button>OTnpaBиTb</button>-->
+<!--<form id="myForm">
+<button id="myButton" type="button">II]^KHHTe для
+3arpy3KH</button>
+</form>
+<h1> Название книги</h1>
+<div id ="booktitte"></div>
+<h2>ABTopbi</h2>
+<div id="book_author"></div>
+<h2>Резюме</h2>
+<div id="summary"></div>-->
+
+<!--<p id="greeting"></p>-->
+
+
+<!--<h1>Выполнение вычислений</h1>
+<div id ="theResult"></div>-->
+
+<!--<form id="emailinput">
+<lаbеl>Введите адрес электронной почты:
+<input type="text" id="yourEmail">
+</lаbеl>
+<input type="submit" value="npoBepnTb" id="validate">
+</form>-->
+
+
+
+
+
+<!--<form id="getText">
+<p>Я задумал букву! Введите предложение, и я скажу вам,
+сколько раз моя секретная буква встречается в вашем
+предложении!</p>
+<input type="text" name="userWords" id="userWords">
+<input type="submit" name="submit">
+</form>
+<div id="results"></div>-->
+
+
+
+
+
+<!--<form id="userlnput">
+
+<textarea id="userQuestion"></textarea>
+
+<button id="ask" type="button">nc^y4HTb OTBeT</button>
+</form>
+<div id="answer"/>-->
+<!--
+<h1 id="words">Перемещение по странице</h1>
+<button type="button" id="stop">nay3a</button>
+<button type="button" id="go">Пpoдoлжить</button>-->
+
+<!--<div id="carousel"></div>-->
+<!--<body onload="setFormDefaults(); ">
+<form name="subscribeForm">
+<h2>Подпишитесь на наш список рассылки</h2>
+<label for="mce-EMAIL">Aflpec email </label>
+<input type="email" value="" name="EMAIL" id="mce-
+EMAIL">
+<button type="button" id="btnSubscribe">Subscribe!
+</button>
+<button type="button" id="btnReset">Reset</button>
+</form>-->
+<!--<body onload="">
+<form name="mathWiz">
+<label>Первое число: <input type="number"
+name="numberOne"></label> <br>
+<label>Второе число: <input type="number"
+name="numberTwo"></label><br>
+<label>0ператор:
+<select name="operator">
+<option value="add"> + </option>
+<option value="subtract"> - </option>
+<option value="multiply"> * </option>
+<option value="divide"> / </option>
+</select>
+</label>
+<br>
+<input type="button" name="operate" value="Bычиcлить!"><br>
+<1аЬе1>Результат: <input type="number" name="theResult">
+</label>
+</form>-->
+
+
+</body>
+
+</html>
